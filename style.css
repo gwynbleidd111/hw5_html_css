@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("./fonts/Gilroy-Bold.woff");
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("./fonts/Gilroy-Medium.woff");
+}
+
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url("./fonts/Gilroy-SemiBold.woff");
+}
+
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url("./fonts/Gilroy-SemiBold.woff");
+}
+
+a {
+    text-decoration: none;
+}
+
+.content_top {
+    padding: 100px 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.box {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.icon {
+    margin-bottom: 25px;
+}
+
+.ct_subtitle {
+    margin-bottom: 17px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+.ct_text {
+    margin-bottom: 25px;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.excerpt {
+    margin-bottom: 25px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.center {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.content_bottom {
+    background: #FAFAFA;
+    padding: 92px 30px 100px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cb_title {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 19px;
+}
+
+.cb_text {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 54px;
+}
+
+.cb_boxes {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.cb_box {
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cb_box_1 {
+    padding-top: 15px;
+}
+
+.cb_box_subtitle {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.cb_box_text {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 39px;
+}
+
+.buttons {
+    border-style: solid;
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-size: 15px;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-color: #F25822;
+    margin-bottom: 50px;
+}
+
+.cb_center {
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
